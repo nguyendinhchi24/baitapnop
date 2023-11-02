@@ -4,12 +4,14 @@ import './index.css';
 import Yourname from './yourname';
 import ThongTinSinhVients from './thongtinsv';
 import reportWebVitals from './reportWebVitals';
+import ProfileCard from './ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Yourname />
     <ThongTinSinhVients />
+    <ProfileCard />
   </React.StrictMode>
 );
 
