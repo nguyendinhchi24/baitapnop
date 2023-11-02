@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import './index.css';
+import Yourname from './yourname';
+import ThongTinSinhVients from './thongtinsv';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Yourname />
+    <ThongTinSinhVients />
   </React.StrictMode>
 );
 
