@@ -7,6 +7,7 @@ import ThongTinSinhVients from './thongtinsv';
 import Yourname from './yourname';
 import ProfileCard from './ProfileCard';
 import SingInForm from './signinform';
+import AlertComponent from './alertcomponent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
     <ThongTinSinhVients />
     <ProfileCard />
     <SingInForm />
-    
+    <AlertComponent/>
   </React.StrictMode>
 );
 
