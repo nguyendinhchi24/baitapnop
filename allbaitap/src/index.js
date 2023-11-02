@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Yourname from './yourname';
-import ThongTinSinhVients from './thongtinsv';
 import reportWebVitals from './reportWebVitals';
+import "bootstrap/dist/css/bootstrap.css";
+import ThongTinSinhVients from './thongtinsv';
+import Yourname from './yourname';
 import ProfileCard from './ProfileCard';
+import SingInForm from './signinform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,7 @@ root.render(
     <Yourname />
     <ThongTinSinhVients />
     <ProfileCard />
+    <SingInForm />
   </React.StrictMode>
 );
 
