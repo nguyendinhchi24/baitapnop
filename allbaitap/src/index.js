@@ -15,6 +15,7 @@ root.render(
     <ThongTinSinhVients />
     <ProfileCard />
     <SingInForm />
+    
   </React.StrictMode>
 );
 
